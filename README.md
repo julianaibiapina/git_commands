@@ -1,6 +1,6 @@
 ## Sobre
 
-No dia a dia sempre recorro ao meu caderno de anotações para relembra alguns comandos, então resolvi passar essas anotações para este arquivo e compartilhar com outras pessoas, pois pode ser útil. Sinta-se a vontade para corrigir ou acrescentar algo entrando em [contato](https://www.linkedin.com/in/julianaibiapina/) comigo. 
+No dia a dia sempre recorro ao meu caderno de anotações para relembra alguns comandos, então resolvi passar essas anotações para este arquivo e compartilhar com outras pessoas, pois pode ser útil.
 
 ⭐ Recomendo o [Visualizing Git](https://git-school.github.io/visualizing-git/) para visualização gráfia de como o git funciona.
 
@@ -60,9 +60,11 @@ A diferença entre `merge` e `rebase` é que com este último comando todo o his
 
 ## Desfazendo alterações
 
-1. `git checkout -- arquivo_que_quero_reverter`: esse comando serve para desfazer alterações em arquivos ainda não adicionamos à working tree (com `git add`), ou seja, voltar à versão do último commit que executei;
-2. `git reset HEAD nome_arquivo`: desfaz as alterações que já estão adicionamos na working tree. HEAD refere-se ao estado no qual estou trabalhando. Se `git status` for executado após esse comando, as alterações continuam nos arquivos, porém não mais marcadas para commit. Para removê-las dos arquivos basta usar o comando do item anterior;
-3. Para desfazer alterações em arquivos que já foram commitados:
+⭐ `git checkout -- arquivo_que_quero_reverter`: esse comando serve para desfazer alterações em arquivos ainda não adicionamos à working tree (com `git add`), ou seja, voltar à versão do último commit que executei;
+
+⭐ `git reset HEAD nome_arquivo`: desfaz as alterações que já estão adicionamos na working tree. HEAD refere-se ao estado no qual estou trabalhando. Se `git status` for executado após esse comando, as alterações continuam nos arquivos, porém não mais marcadas para commit. Para removê-las dos arquivos basta usar o comando do item anterior;
+
+⭐ Para desfazer alterações em arquivos que já foram commitados:
 
     usar `git log --oneline` para copiar o hash do commit;
 
