@@ -1,6 +1,6 @@
 ## Sobre
 
-No dia a dia sempre recorro ao meu caderno de anotações para relembra alguns comandos, então resolvi passar essas anotações para este arquivo e compartilhar com outras pessoas, pois pode ser útil.
+No dia a dia sempre recorro ao meu caderno de anotações para relembra alguns comandos, então resolvi passar essas anotações para este arquivo e compartilhar com outras pessoas, pois pode ser útil. Essas anotações também estão disponíveis no [Notion](https://www.notion.so/Git-e-GitHub-232de171470d4f9f9e41f90f4de2153f).
 
 ⭐ Recomendo o [Visualizing Git](https://git-school.github.io/visualizing-git/) para visualização gráfia de como o git funciona.
 
