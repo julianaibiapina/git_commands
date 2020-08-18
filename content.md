@@ -66,11 +66,9 @@ A diferença entre `merge` e `rebase` é que com este último comando todo o his
 
 ⭐ Para desfazer alterações em arquivos que já foram commitados:
 
-    usar `git log --oneline` para copiar o hash do commit;
+1. usar `git log --oneline` para copiar o hash do commit;
 
-    `git revert hash_do_commit`;
-
-    esse último comando gera um novo commit com a remoção das alterações.
+2. usar `git revert hash_do_commit` para gerar um novo commit com a remoção das alterações.
 
 ## Criando releases/versões
 
