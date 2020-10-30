@@ -80,3 +80,14 @@ A diferença entre `merge` e `rebase` é que com este último comando todo o his
 
 1. `git push origin master`: envia nossos códigos para a branch master no repositório origin;
 2. `git push origin v0.1.0`: determina que o código que está na branch master naquele momento em origin configura uma versão/release.
+
+
+## Git Flow
+[Fluxo de trabalho Git Flow](https://www.atlassian.com/br/git/tutorials/comparing-workflows/gitflow-workflow)
+
+⭐ `git flow init`: inicia as funcionalidades do git flow no repositório atual já deixando na branch develop
+
+⭐ `git flow feature start feature_name`: inicia uma branch feature;
+
+⭐ `git flow feature finish feature_branch`: finaliza a branch de trabalho atual e realiza o merge com a develop;
+
