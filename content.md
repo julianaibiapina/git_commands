@@ -17,9 +17,13 @@ No dia a dia sempre recorro ao meu caderno de anotações para relembra alguns c
 
     `git remote add origin url_dada_pelo_github`
 
-    definimos um repositório remoto dando a ele o nome de *origin* e o associamos ao que acababos de criar no GitHub.
+     definimos um repositório remoto dando a ele o nome de *origin* e o associamos ao que acababos de criar no GitHub.
 
-    `git push -u origin master`
+    `git branch -m master main` altera a branch master para main no GitHub
+
+    A partir de 1º de outubro de 2020, todos os repositórios novos que sejam criados começarão a mostrar main como ramo principal.
+
+    `git push -u origin main`
 
     o `-u` significa que a partir daquele momento quando o comando `git push` for executado os códigos que estiverem na branch master serão enviados para o repositório denomidado *origin*.
 
